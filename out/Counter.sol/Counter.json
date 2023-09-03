@@ -1,0 +1,470 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "count",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "decrement",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "increment",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b50610113806100206000396000f3fe6080604052348015600f57600080fd5b506004361060465760003560e01c806306661abd14604b5780632baeceb7146065578063a87d942c14606d578063d09de08a146074575b600080fd5b605360005481565b60405190815260200160405180910390f35b606b607a565b005b6000546053565b606b6091565b6001600080828254608a919060b7565b9091555050565b6001600080828254608a919060cd565b634e487b7160e01b600052601160045260246000fd5b8181038181111560c75760c760a1565b92915050565b8082018082111560c75760c760a156fea26469706673582212202b1b2018d40438e2fe063bce781189565a78d02583925544bd82ca056c090d1a64736f6c63430008110033",
+    "sourceMap": "64:250:20:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060465760003560e01c806306661abd14604b5780632baeceb7146065578063a87d942c14606d578063d09de08a146074575b600080fd5b605360005481565b60405190815260200160405180910390f35b606b607a565b005b6000546053565b606b6091565b6001600080828254608a919060b7565b9091555050565b6001600080828254608a919060cd565b634e487b7160e01b600052601160045260246000fd5b8181038181111560c75760c760a1565b92915050565b8082018082111560c75760c760a156fea26469706673582212202b1b2018d40438e2fe063bce781189565a78d02583925544bd82ca056c090d1a64736f6c63430008110033",
+    "sourceMap": "64:250:20:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;87:20;;;;;;;;;160:25:24;;;148:2;133:18;87:20:20;;;;;;;257:55;;;:::i;:::-;;114:76;155:4;178:5;114:76;;196:55;;;:::i;257:::-;304:1;295:5;;:10;;;;;;;:::i;:::-;;;;-1:-1:-1;;257:55:20:o;196:::-;243:1;234:5;;:10;;;;;;;:::i;196:127:24:-;257:10;252:3;248:20;245:1;238:31;288:4;285:1;278:15;312:4;309:1;302:15;328:128;395:9;;;416:11;;;413:37;;;430:18;;:::i;:::-;328:128;;;;:::o;461:125::-;526:9;;;547:10;;;544:36;;;560:18;;:::i",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "count()": "06661abd",
+    "decrement()": "2baeceb7",
+    "getCount()": "a87d942c",
+    "increment()": "d09de08a"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"count\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"decrement\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Counter.sol\":\"Counter\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Counter.sol\":{\"keccak256\":\"0x6dbafa8ea0fa844202cf3f9729e2d022170fe14d657a3e9a6eca241a66433da2\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://b955a1dcf4629cdebddf80cb1fda4427bb5da48adb1c88d42b57e2723b8828fc\",\"dweb:/ipfs/QmX6k7yqXFZrUDk2Eedr8Jzq8TaLPjtwUnkTZjHf6CnoQf\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "count",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "decrement"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getCount",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "increment"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Counter.sol": "Counter"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Counter.sol": {
+        "keccak256": "0x6dbafa8ea0fa844202cf3f9729e2d022170fe14d657a3e9a6eca241a66433da2",
+        "urls": [
+          "bzz-raw://b955a1dcf4629cdebddf80cb1fda4427bb5da48adb1c88d42b57e2723b8828fc",
+          "dweb:/ipfs/QmX6k7yqXFZrUDk2Eedr8Jzq8TaLPjtwUnkTZjHf6CnoQf"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Counter.sol",
+    "id": 43409,
+    "exportedSymbols": {
+      "Counter": [
+        43408
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:276:20",
+    "nodes": [
+      {
+        "id": 43381,
+        "nodeType": "PragmaDirective",
+        "src": "39:23:20",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 43408,
+        "nodeType": "ContractDefinition",
+        "src": "64:250:20",
+        "nodes": [
+          {
+            "id": 43383,
+            "nodeType": "VariableDeclaration",
+            "src": "87:20:20",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "06661abd",
+            "mutability": "mutable",
+            "name": "count",
+            "nameLocation": "102:5:20",
+            "scope": 43408,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 43382,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "87:7:20",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 43391,
+            "nodeType": "FunctionDefinition",
+            "src": "114:76:20",
+            "nodes": [],
+            "body": {
+              "id": 43390,
+              "nodeType": "Block",
+              "src": "161:29:20",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 43388,
+                    "name": "count",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 43383,
+                    "src": "178:5:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 43387,
+                  "id": 43389,
+                  "nodeType": "Return",
+                  "src": "171:12:20"
+                }
+              ]
+            },
+            "functionSelector": "a87d942c",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getCount",
+            "nameLocation": "123:8:20",
+            "parameters": {
+              "id": 43384,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "131:2:20"
+            },
+            "returnParameters": {
+              "id": 43387,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 43386,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 43391,
+                  "src": "155:4:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 43385,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "155:4:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "154:6:20"
+            },
+            "scope": 43408,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 43399,
+            "nodeType": "FunctionDefinition",
+            "src": "196:55:20",
+            "nodes": [],
+            "body": {
+              "id": 43398,
+              "nodeType": "Block",
+              "src": "224:27:20",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 43396,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 43394,
+                      "name": "count",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 43383,
+                      "src": "234:5:20",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "hexValue": "31",
+                      "id": 43395,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "243:1:20",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1_by_1",
+                        "typeString": "int_const 1"
+                      },
+                      "value": "1"
+                    },
+                    "src": "234:10:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 43397,
+                  "nodeType": "ExpressionStatement",
+                  "src": "234:10:20"
+                }
+              ]
+            },
+            "functionSelector": "d09de08a",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "increment",
+            "nameLocation": "205:9:20",
+            "parameters": {
+              "id": 43392,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "214:2:20"
+            },
+            "returnParameters": {
+              "id": 43393,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "224:0:20"
+            },
+            "scope": 43408,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 43407,
+            "nodeType": "FunctionDefinition",
+            "src": "257:55:20",
+            "nodes": [],
+            "body": {
+              "id": 43406,
+              "nodeType": "Block",
+              "src": "285:27:20",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 43404,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 43402,
+                      "name": "count",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 43383,
+                      "src": "295:5:20",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "-=",
+                    "rightHandSide": {
+                      "hexValue": "31",
+                      "id": 43403,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "304:1:20",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1_by_1",
+                        "typeString": "int_const 1"
+                      },
+                      "value": "1"
+                    },
+                    "src": "295:10:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 43405,
+                  "nodeType": "ExpressionStatement",
+                  "src": "295:10:20"
+                }
+              ]
+            },
+            "functionSelector": "2baeceb7",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "decrement",
+            "nameLocation": "266:9:20",
+            "parameters": {
+              "id": 43400,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "275:2:20"
+            },
+            "returnParameters": {
+              "id": 43401,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "285:0:20"
+            },
+            "scope": 43408,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Counter",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          43408
+        ],
+        "name": "Counter",
+        "nameLocation": "73:7:20",
+        "scope": 43409,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 20
+}
