@@ -858,6 +858,47 @@
         }
       }
     },
+    "lib/solmate/src/tokens/ERC20.sol": {
+      "lastModificationDate": 1693727520674,
+      "contentHash": "0c7c7ada139062536af09d69d96d395c",
+      "sourceName": "lib/solmate/src/tokens/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
     "script/Counter.s.sol": {
       "lastModificationDate": 1693718413068,
       "contentHash": "7539680fbd3ad49c6632713cc2bb6bf6",
@@ -993,6 +1034,49 @@
       "artifacts": {
         "HelloWorld": {
           "0.8.17+commit.8df45f5f.Linux.gcc": "HelloWorld.sol/HelloWorld.json"
+        }
+      }
+    },
+    "src/imports.sol": {
+      "lastModificationDate": 1693727878997,
+      "contentHash": "a9b164e0e50471ec1d8e61eef25530c1",
+      "sourceName": "src/imports.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/tokens/ERC20.sol"
+      ],
+      "versionRequirement": "^0.8.17",
+      "artifacts": {
+        "Tokens": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "imports.sol/Tokens.json"
         }
       }
     },
