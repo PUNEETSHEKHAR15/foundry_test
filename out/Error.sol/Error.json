@@ -1,0 +1,357 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "notAuthorised",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "throwCustomError",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "throwError",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5060d18061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80632f7643a8146037578063c1e2603314603f575b600080fd5b603d6045565b005b603d6082565b60405162461bcd60e51b815260206004820152600e60248201526d1b9bdd08185d5d1a1bdc9a5cd95960921b604482015260640160405180910390fd5b604051639e4531a160e01b815260040160405180910390fdfea2646970667358221220ea91bb8fe1c700f1fbfd095c13ed7eb6e1dd2c90c6f81c3ddf6a45c3cbbe656264736f6c63430008110033",
+    "sourceMap": "55:223:18:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c80632f7643a8146037578063c1e2603314603f575b600080fd5b603d6045565b005b603d6082565b60405162461bcd60e51b815260206004820152600e60248201526d1b9bdd08185d5d1a1bdc9a5cd95960921b604482015260640160405180910390fd5b604051639e4531a160e01b815260040160405180910390fdfea2646970667358221220ea91bb8fe1c700f1fbfd095c13ed7eb6e1dd2c90c6f81c3ddf6a45c3cbbe656264736f6c63430008110033",
+    "sourceMap": "55:223:18:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;104:85;;;:::i;:::-;;195:81;;;:::i;104:85::-;150:32;;-1:-1:-1;;;150:32:18;;216:2:20;150:32:18;;;198:21:20;255:2;235:18;;;228:30;-1:-1:-1;;;274:18:20;;;267:44;328:18;;150:32:18;;;;;;;195:81;254:15;;-1:-1:-1;;;254:15:18;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "throwCustomError()": "c1e26033",
+    "throwError()": "2f7643a8"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"notAuthorised\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"throwCustomError\",\"outputs\":[],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"throwError\",\"outputs\":[],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Error.sol\":\"Error\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/= node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":solmate/=lib/solmate/src/\"]},\"sources\":{\"src/Error.sol\":{\"keccak256\":\"0x0a09f04411609a0a9026955f5ba6d15653985f7d054c835eea53a469dac8b5c7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1caf9c4544f721660645afab3c8db2edaf5dc0e2d8a3b03f1c9c6f4c3fe7a028\",\"dweb:/ipfs/QmQYX9n9U1kbBzT8uQirKrpzCutFkogmssDRMYXbjf8nxy\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "notAuthorised"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "throwCustomError"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "throwError"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/= node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "forge-std/=lib/forge-std/src/",
+        "solmate/=lib/solmate/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Error.sol": "Error"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Error.sol": {
+        "keccak256": "0x0a09f04411609a0a9026955f5ba6d15653985f7d054c835eea53a469dac8b5c7",
+        "urls": [
+          "bzz-raw://1caf9c4544f721660645afab3c8db2edaf5dc0e2d8a3b03f1c9c6f4c3fe7a028",
+          "dweb:/ipfs/QmQYX9n9U1kbBzT8uQirKrpzCutFkogmssDRMYXbjf8nxy"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Error.sol",
+    "id": 43341,
+    "exportedSymbols": {
+      "Error": [
+        43340
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "30:249:18",
+    "nodes": [
+      {
+        "id": 43321,
+        "nodeType": "PragmaDirective",
+        "src": "30:23:18",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 43340,
+        "nodeType": "ContractDefinition",
+        "src": "55:223:18",
+        "nodes": [
+          {
+            "id": 43323,
+            "nodeType": "ErrorDefinition",
+            "src": "76:22:18",
+            "nodes": [],
+            "errorSelector": "9e4531a1",
+            "name": "notAuthorised",
+            "nameLocation": "82:13:18",
+            "parameters": {
+              "id": 43322,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "95:2:18"
+            }
+          },
+          {
+            "id": 43332,
+            "nodeType": "FunctionDefinition",
+            "src": "104:85:18",
+            "nodes": [],
+            "body": {
+              "id": 43331,
+              "nodeType": "Block",
+              "src": "140:49:18",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "66616c7365",
+                        "id": 43327,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "bool",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "158:5:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        "value": "false"
+                      },
+                      {
+                        "hexValue": "6e6f7420617574686f7269736564",
+                        "id": 43328,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "165:16:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_734df47bf93761d1f6168d1923ee6a5996759e8ec0e854dfec0ee58c9a72fb5a",
+                          "typeString": "literal_string \"not authorised\""
+                        },
+                        "value": "not authorised"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_734df47bf93761d1f6168d1923ee6a5996759e8ec0e854dfec0ee58c9a72fb5a",
+                          "typeString": "literal_string \"not authorised\""
+                        }
+                      ],
+                      "id": 43326,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "150:7:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 43329,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "150:32:18",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 43330,
+                  "nodeType": "ExpressionStatement",
+                  "src": "150:32:18"
+                }
+              ]
+            },
+            "functionSelector": "2f7643a8",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "throwError",
+            "nameLocation": "113:10:18",
+            "parameters": {
+              "id": 43324,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "123:2:18"
+            },
+            "returnParameters": {
+              "id": 43325,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "140:0:18"
+            },
+            "scope": 43340,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 43339,
+            "nodeType": "FunctionDefinition",
+            "src": "195:81:18",
+            "nodes": [],
+            "body": {
+              "id": 43338,
+              "nodeType": "Block",
+              "src": "237:39:18",
+              "nodes": [],
+              "statements": [
+                {
+                  "errorCall": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "id": 43335,
+                      "name": "notAuthorised",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 43323,
+                      "src": "254:13:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_error_pure$__$returns$__$",
+                        "typeString": "function () pure"
+                      }
+                    },
+                    "id": 43336,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "254:15:18",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 43337,
+                  "nodeType": "RevertStatement",
+                  "src": "247:22:18"
+                }
+              ]
+            },
+            "functionSelector": "c1e26033",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "throwCustomError",
+            "nameLocation": "204:16:18",
+            "parameters": {
+              "id": 43333,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "220:2:18"
+            },
+            "returnParameters": {
+              "id": 43334,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "237:0:18"
+            },
+            "scope": 43340,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Error",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          43340
+        ],
+        "name": "Error",
+        "nameLocation": "64:5:18",
+        "scope": 43341,
+        "usedErrors": [
+          43323
+        ]
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 18
+}

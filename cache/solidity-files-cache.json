@@ -858,47 +858,6 @@
         }
       }
     },
-    "lib/solmate/src/tokens/ERC20.sol": {
-      "lastModificationDate": 1693727520674,
-      "contentHash": "0c7c7ada139062536af09d69d96d395c",
-      "sourceName": "lib/solmate/src/tokens/ERC20.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "useLiteralContent": false,
-            "bytecodeHash": "ipfs",
-            "appendCBOR": true
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ]
-            }
-          },
-          "evmVersion": "paris",
-          "libraries": {}
-        }
-      },
-      "imports": [],
-      "versionRequirement": ">=0.8.0",
-      "artifacts": {
-        "ERC20": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "ERC20.sol/ERC20.json"
-        }
-      }
-    },
     "script/Counter.s.sol": {
       "lastModificationDate": 1693718413068,
       "contentHash": "7539680fbd3ad49c6632713cc2bb6bf6",
@@ -956,8 +915,8 @@
       }
     },
     "src/Counter.sol": {
-      "lastModificationDate": 1693726912978,
-      "contentHash": "1ef106a3dcd95e626bf0e510206451b6",
+      "lastModificationDate": 1693729956461,
+      "contentHash": "60cc4e29e78c5988c09545d201cdd7fc",
       "sourceName": "src/Counter.sol",
       "solcConfig": {
         "settings": {
@@ -993,6 +952,47 @@
       "artifacts": {
         "Counter": {
           "0.8.17+commit.8df45f5f.Linux.gcc": "Counter.sol/Counter.json"
+        }
+      }
+    },
+    "src/Error.sol": {
+      "lastModificationDate": 1693738525246,
+      "contentHash": "fc3512430c65240d95c75d4dc092fdba",
+      "sourceName": "src/Error.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "Error": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Error.sol/Error.json"
         }
       }
     },
@@ -1037,10 +1037,10 @@
         }
       }
     },
-    "src/imports.sol": {
-      "lastModificationDate": 1693727878997,
-      "contentHash": "a9b164e0e50471ec1d8e61eef25530c1",
-      "sourceName": "src/imports.sol",
+    "src/Owner.sol": {
+      "lastModificationDate": 1693732186069,
+      "contentHash": "925e9428b03fbe9b39f904d9dba25ab6",
+      "sourceName": "src/Owner.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -1070,19 +1070,58 @@
           "libraries": {}
         }
       },
-      "imports": [
-        "lib/solmate/src/tokens/ERC20.sol"
-      ],
-      "versionRequirement": "^0.8.17",
+      "imports": [],
+      "versionRequirement": "=0.8.17",
       "artifacts": {
-        "Tokens": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "imports.sol/Tokens.json"
+        "Owner": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Owner.sol/Owner.json"
+        }
+      }
+    },
+    "src/StateVarLoop.sol": {
+      "lastModificationDate": 1693742193997,
+      "contentHash": "8d72b3887dc6413575d533e739533c7a",
+      "sourceName": "src/StateVarLoop.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "state": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StateVarLoop.sol/state.json"
         }
       }
     },
     "test/Counter.t.sol": {
-      "lastModificationDate": 1693726905947,
-      "contentHash": "46530d3a2bff5fb86daf1529cc8ac586",
+      "lastModificationDate": 1693732186069,
+      "contentHash": "12c3cb075a4b9562624b696c854bb609",
       "sourceName": "test/Counter.t.sol",
       "solcConfig": {
         "settings": {
@@ -1138,6 +1177,67 @@
       "artifacts": {
         "CounterTest": {
           "0.8.17+commit.8df45f5f.Linux.gcc": "Counter.t.sol/CounterTest.json"
+        }
+      }
+    },
+    "test/Error.t.sol": {
+      "lastModificationDate": 1693739065082,
+      "contentHash": "c5a75aa0c5bb22bdb54fa83e45d1a409",
+      "sourceName": "test/Error.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/forge-std/src/safeconsole.sol",
+        "src/Error.sol"
+      ],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "testError": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Error.t.sol/testError.json"
         }
       }
     },
@@ -1199,6 +1299,128 @@
       "artifacts": {
         "HelloWorldTest": {
           "0.8.17+commit.8df45f5f.Linux.gcc": "HelloWorld.t.sol/HelloWorldTest.json"
+        }
+      }
+    },
+    "test/Owner.t.sol": {
+      "lastModificationDate": 1693736419540,
+      "contentHash": "a27aac0db2f170d653967f80d4ff1059",
+      "sourceName": "test/Owner.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/forge-std/src/safeconsole.sol",
+        "src/Owner.sol"
+      ],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "OwnerTest": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Owner.t.sol/OwnerTest.json"
+        }
+      }
+    },
+    "test/stateVarLoop.t.sol": {
+      "lastModificationDate": 1693742203184,
+      "contentHash": "fde832b93b600bed6617179f1cb2051e",
+      "sourceName": "test/stateVarLoop.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/forge-std/src/safeconsole.sol",
+        "src/StateVarLoop.sol"
+      ],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "teststate": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "stateVarLoop.t.sol/teststate.json"
         }
       }
     }

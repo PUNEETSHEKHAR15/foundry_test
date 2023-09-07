@@ -50,4 +50,11 @@ contract CounterTest is Test {
     // }
 
     // to check gas report (--gas-report) it will display the function call according to test file.
+
+    int256 x = -1;
+
+    function testSomething() public view returns (int256) {
+        console2.logInt(x);
+        return x;
+    }
 }
