@@ -48,7 +48,8 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "DSTest": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "test.sol/DSTest.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "test.sol/DSTest.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "test.sol/DSTest.json"
         }
       }
     },
@@ -92,13 +93,19 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "CommonBase": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Base.sol/CommonBase.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Base.sol/CommonBase.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "Base.sol/CommonBase.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "Base.sol/CommonBase.0.8.21.json"
         },
         "ScriptBase": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Base.sol/ScriptBase.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Base.sol/ScriptBase.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "Base.sol/ScriptBase.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "Base.sol/ScriptBase.0.8.21.json"
         },
         "TestBase": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Base.sol/TestBase.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Base.sol/TestBase.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "Base.sol/TestBase.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "Base.sol/TestBase.0.8.21.json"
         }
       }
     },
@@ -153,7 +160,7 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "Script": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Script.sol/Script.json"
+          "0.8.21+commit.d9974bed.Linux.gcc": "Script.sol/Script.json"
         }
       }
     },
@@ -197,7 +204,8 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdAssertions": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdAssertions.sol/StdAssertions.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdAssertions.sol/StdAssertions.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdAssertions.sol/StdAssertions.json"
         }
       }
     },
@@ -240,7 +248,9 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdChains": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdChains.sol/StdChains.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdChains.sol/StdChains.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdChains.sol/StdChains.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "StdChains.sol/StdChains.0.8.21.json"
         }
       }
     },
@@ -285,10 +295,14 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdCheats": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdCheats.sol/StdCheats.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdCheats.sol/StdCheats.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdCheats.sol/StdCheats.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "StdCheats.sol/StdCheats.0.8.21.json"
         },
         "StdCheatsSafe": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdCheats.sol/StdCheatsSafe.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdCheats.sol/StdCheatsSafe.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdCheats.sol/StdCheatsSafe.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "StdCheats.sol/StdCheatsSafe.0.8.21.json"
         }
       }
     },
@@ -329,7 +343,8 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "stdError": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdError.sol/stdError.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdError.sol/stdError.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdError.sol/stdError.json"
         }
       }
     },
@@ -370,7 +385,8 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdInvariant": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdInvariant.sol/StdInvariant.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdInvariant.sol/StdInvariant.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdInvariant.sol/StdInvariant.json"
         }
       }
     },
@@ -413,7 +429,9 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "stdJson": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdJson.sol/stdJson.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdJson.sol/stdJson.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdJson.sol/stdJson.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "StdJson.sol/stdJson.0.8.21.json"
         }
       }
     },
@@ -454,7 +472,9 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "stdMath": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdMath.sol/stdMath.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdMath.sol/stdMath.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdMath.sol/stdMath.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "StdMath.sol/stdMath.0.8.21.json"
         }
       }
     },
@@ -497,10 +517,14 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "stdStorage": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdStorage.sol/stdStorage.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdStorage.sol/stdStorage.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdStorage.sol/stdStorage.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "StdStorage.sol/stdStorage.0.8.21.json"
         },
         "stdStorageSafe": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdStorage.sol/stdStorageSafe.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdStorage.sol/stdStorageSafe.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdStorage.sol/stdStorageSafe.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "StdStorage.sol/stdStorageSafe.0.8.21.json"
         }
       }
     },
@@ -543,7 +567,9 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "StdStyle": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdStyle.sol/StdStyle.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdStyle.sol/StdStyle.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdStyle.sol/StdStyle.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "StdStyle.sol/StdStyle.0.8.21.json"
         }
       }
     },
@@ -587,7 +613,9 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "StdUtils": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "StdUtils.sol/StdUtils.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "StdUtils.sol/StdUtils.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "StdUtils.sol/StdUtils.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "StdUtils.sol/StdUtils.0.8.21.json"
         }
       }
     },
@@ -646,7 +674,8 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "Test": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Test.sol/Test.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Test.sol/Test.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "Test.sol/Test.json"
         }
       }
     },
@@ -687,10 +716,14 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "Vm": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Vm.sol/Vm.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Vm.sol/Vm.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "Vm.sol/Vm.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "Vm.sol/Vm.0.8.21.json"
         },
         "VmSafe": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Vm.sol/VmSafe.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Vm.sol/VmSafe.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "Vm.sol/VmSafe.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "Vm.sol/VmSafe.0.8.21.json"
         }
       }
     },
@@ -731,7 +764,9 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "console.sol/console.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "console.sol/console.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "console.sol/console.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "console.sol/console.0.8.21.json"
         }
       }
     },
@@ -772,7 +807,9 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console2": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "console2.sol/console2.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "console2.sol/console2.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "console2.sol/console2.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "console2.sol/console2.0.8.21.json"
         }
       }
     },
@@ -813,7 +850,9 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "IMulticall3": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "IMulticall3.sol/IMulticall3.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "IMulticall3.sol/IMulticall3.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "IMulticall3.sol/IMulticall3.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "IMulticall3.sol/IMulticall3.0.8.21.json"
         }
       }
     },
@@ -854,12 +893,14 @@
       "versionRequirement": ">=0.6.2, <0.9.0",
       "artifacts": {
         "safeconsole": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "safeconsole.sol/safeconsole.json"
+          "0.8.17+commit.8df45f5f.Linux.gcc": "safeconsole.sol/safeconsole.json",
+          "0.8.18+commit.87f61d96.Linux.gcc": "safeconsole.sol/safeconsole.0.8.18.json",
+          "0.8.21+commit.d9974bed.Linux.gcc": "safeconsole.sol/safeconsole.0.8.21.json"
         }
       }
     },
     "script/Counter.s.sol": {
-      "lastModificationDate": 1693718413068,
+      "lastModificationDate": 1693732186069,
       "contentHash": "7539680fbd3ad49c6632713cc2bb6bf6",
       "sourceName": "script/Counter.s.sol",
       "solcConfig": {
@@ -910,7 +951,7 @@
       "versionRequirement": "^0.8.13",
       "artifacts": {
         "CounterScript": {
-          "0.8.17+commit.8df45f5f.Linux.gcc": "Counter.s.sol/CounterScript.json"
+          "0.8.21+commit.d9974bed.Linux.gcc": "Counter.s.sol/CounterScript.json"
         }
       }
     },
@@ -993,6 +1034,47 @@
       "artifacts": {
         "Error": {
           "0.8.17+commit.8df45f5f.Linux.gcc": "Error.sol/Error.json"
+        }
+      }
+    },
+    "src/Event.sol": {
+      "lastModificationDate": 1694061378080,
+      "contentHash": "94ffc531dca5d5ff5692e26ce7ec2c14",
+      "sourceName": "src/Event.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.18",
+      "artifacts": {
+        "Event": {
+          "0.8.18+commit.87f61d96.Linux.gcc": "Event.sol/Event.json"
         }
       }
     },
@@ -1119,6 +1201,88 @@
         }
       }
     },
+    "src/Time.sol": {
+      "lastModificationDate": 1694065255689,
+      "contentHash": "003d0fcfaaf55213db116388063b1f93",
+      "sourceName": "src/Time.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "Auction": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Time.sol/Auction.json"
+        }
+      }
+    },
+    "src/Wallet.sol": {
+      "lastModificationDate": 1694070330223,
+      "contentHash": "0e1a1dd612e895f6371ad74216af82b3",
+      "sourceName": "src/Wallet.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "Wallet": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Wallet.sol/Wallet.json"
+        }
+      }
+    },
     "test/Counter.t.sol": {
       "lastModificationDate": 1693732186069,
       "contentHash": "12c3cb075a4b9562624b696c854bb609",
@@ -1241,6 +1405,67 @@
         }
       }
     },
+    "test/Event.t.sol": {
+      "lastModificationDate": 1694063660360,
+      "contentHash": "3cf0a8431bd597e3b56d0f0cfc618747",
+      "sourceName": "test/Event.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/forge-std/src/safeconsole.sol",
+        "src/Event.sol"
+      ],
+      "versionRequirement": "=0.8.18",
+      "artifacts": {
+        "testEvent": {
+          "0.8.18+commit.87f61d96.Linux.gcc": "Event.t.sol/testEvent.json"
+        }
+      }
+    },
     "test/HelloWorld.t.sol": {
       "lastModificationDate": 1693726902664,
       "contentHash": "2ab9fb657caf5026ee9b25617041a373",
@@ -1303,8 +1528,8 @@
       }
     },
     "test/Owner.t.sol": {
-      "lastModificationDate": 1693736419540,
-      "contentHash": "a27aac0db2f170d653967f80d4ff1059",
+      "lastModificationDate": 1694071121717,
+      "contentHash": "097aff810557b487ed51187c2450deba",
       "sourceName": "test/Owner.t.sol",
       "solcConfig": {
         "settings": {
@@ -1360,6 +1585,128 @@
       "artifacts": {
         "OwnerTest": {
           "0.8.17+commit.8df45f5f.Linux.gcc": "Owner.t.sol/OwnerTest.json"
+        }
+      }
+    },
+    "test/Time.t.sol": {
+      "lastModificationDate": 1694069255579,
+      "contentHash": "1049e54e27d154d8ba6a3c51882f33a6",
+      "sourceName": "test/Time.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/forge-std/src/safeconsole.sol",
+        "src/Time.sol"
+      ],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "testAuction": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Time.t.sol/testAuction.json"
+        }
+      }
+    },
+    "test/Wallet.t.sol": {
+      "lastModificationDate": 1694071720855,
+      "contentHash": "45e87f65539bcf6c297f3d66ce8384d5",
+      "sourceName": "test/Wallet.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "useLiteralContent": false,
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "paris",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/forge-std/src/safeconsole.sol",
+        "src/Wallet.sol"
+      ],
+      "versionRequirement": "=0.8.17",
+      "artifacts": {
+        "testEthBalance": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "Wallet.t.sol/testEthBalance.json"
         }
       }
     },
